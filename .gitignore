@@ -1,0 +1,42 @@
+# Ignore everything by default (API repo only)
+*
+
+# Python API
+!src/
+!src/**
+
+# Dependencies & config
+!requirements.txt
+!.env.example
+
+# SQLite database (included with data for deployment)
+!municipal_complaints.db
+
+# Deploy
+!deploy/
+!deploy/**
+
+# Uploads folder structure (not uploaded files)
+!uploads/
+!uploads/.gitkeep
+
+# Docs & scripts
+!.gitignore
+!.git/
+!README.md
+!clear_data.py
+!create_admin.py
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.cpython-*.pyc
+
+# Secrets and runtime (never commit)
+.env
+firebase-service-account.json
+uploads/*
+!uploads/.gitkeep
+*.db
+!municipal_complaints.db

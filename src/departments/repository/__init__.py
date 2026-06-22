@@ -1,0 +1,31 @@
+from .department_repository import DepartmentRepository
+
+__all__ = ["DepartmentRepository"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
